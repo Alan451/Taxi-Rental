@@ -1,0 +1,29 @@
+LANDING PAGE
+* SIGN UP/LOGIN Driver
+* LOGIN Student
+
+template  ---- https://preview.themeforest.net/item/carrgo-ridesharing-taxi-html5-template/full_screen_preview/25780911?_ga=2.160037949.1093085460.1612018912-385063362.1612018898
+
+Driver:
+-SIGN UP
+ other than usual details, vehicle information, price/km(showing the average amount), available days and time in the week
+-SIGN IN
+username and password
+=========================================================================================================================
+* driver model will contain 2 more booleans - occupied(currently on a ride or not toggled back to unoccupied after the ride is complete), available(if he is available currently until he turn it back on)
+* once signed in driver will see his profile, edit options and toggle button for available and occupied
+=========================================================================================================================
+
+maps  ----- https://rapidapi.com/blog/top-map-apis/
+
+
+Student:
+* Outlook login
+* normal stuff(map , destination, origin, distance , required type of vehicle(we will show only the available types others faded) ,payment option)
+* next page will be available vehicles of that particular type sorted in order of price
+* select one vehicle , driver should get notification and contact details of student, student will get contact details of the driver
+
+
+
+******
+SHARING TAXIs

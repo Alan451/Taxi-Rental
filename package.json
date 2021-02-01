@@ -1,5 +1,5 @@
 {
-  "name": "Taxi Rental",
+  "name": "Taxi_Rental",
   "description": "Express application preconfigured for authentication via AzureAD",
   "license": "MIT",
   "version": "0.0.1",
