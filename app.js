@@ -1,7 +1,7 @@
 // Load environment variables
 require('dotenv').config();
 
-// Modules
+// Modules loading
 const express = require('express');
 const expressHelper = require('./utilities/express');
 const errorHelper = require('./utilities/errors');
