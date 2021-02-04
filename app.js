@@ -24,7 +24,7 @@ app.use('/profile', require('./routes/profile'));
 errorHelper.setup(app);
 
 // Start Server
-app.set('port', process.env.PORT || 3000);
+app.set('port', process.env.PORT || 4000);
 const server = app.listen(app.get('port'), () => {
   console.log(`Express server listening on port ${server.address().port}`);
 });
