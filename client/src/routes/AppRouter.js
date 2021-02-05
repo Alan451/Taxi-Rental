@@ -6,6 +6,7 @@ import ForgotPassword from '../pages/ForgotPassword'
 import Login from '../pages/Login'
 import Student from '../pages/StudentPage'
 import Driver from '../pages/DriverPage'
+import Signup from '../pages/Signup'
 const AppRouter = () => (
     <BrowserRouter>
       <div>
@@ -14,6 +15,7 @@ const AppRouter = () => (
           <Route path="/forgotpassword" component={ForgotPassword} />
           <Route path="/student" component = {Student} />
           <Route path="/driver" component = {Driver} />
+          <Route path="/signup" component={Signup} />
         </Switch>
       </div>
     </BrowserRouter>
